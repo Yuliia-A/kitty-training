@@ -1,0 +1,51 @@
+fieldset {
+    text-align: center;
+}
+
+fieldset>button {
+    background: #4287f5;
+}
+button {
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+#gameField { 
+    background: #eee;
+    margin: 20px auto;
+    display: flex;
+}
+
+#levelDiv {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+canvas {
+    flex-grow: 3;
+    height: 40%;
+    background-color: #ccc;
+}
+
+.buttonChoiceLevel {
+    background-color: #1ac444;    
+    outline: none;
+}
+
+button:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+
+/*#buttonEasyLevel {
+    margin-top: 120px;
+}
