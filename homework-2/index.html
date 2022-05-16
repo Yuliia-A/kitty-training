@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1Random</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="boxContainer">
+            <p>Select a segment of numbers</p>
+            <input type="number" id="minNumber" placeholder="from" onchange="clickMinMax()">           
+            <input type="number" id="maxNumber" placeholder="to" onchange="clickMinMax()">
+            <button onclick="clickMinMax()">Ok</button>
+        
+        <button id="reset" onclick="resetInput()"></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
