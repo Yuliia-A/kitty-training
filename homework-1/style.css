@@ -1,0 +1,108 @@
+body {
+    background-color: #EBEBEB;
+    margin: auto;
+}
+
+h1 {
+    margin: 0;
+    text-align: center; 
+    background-color: #4a464a;
+    color: #f1f6fc;
+    min-height: 2em;
+    padding-top: 7%;
+}
+
+#containerfortasklist {
+    align-content: center;
+    background-color: #cfc5c5;
+    margin: auto;
+    position:absolute;
+}
+
+li {
+    padding: 10px 15px;
+    font-size: 20px;
+    list-style-type: none; 
+    color: #4a464a;
+    transition: all .3s ease;
+}
+
+ul {
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+
+li:nth-child(2), li:nth-child(5) {
+    color: #6b9f01;
+}
+
+li:hover {
+    background-color: #f1f6fc;
+}
+
+li label:hover, li input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+ul li input[type='checkbox']:checked+label {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+ul li input[type='checkbox'] {
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+
+ul li label {
+    margin-right: 50px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#inputbox {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 18px;
+  position: relative;
+}
+
+input[type=text] {
+  font-family: inherit;
+  width: 75%;
+  max-width: 400px;
+  outline: 0;
+  font-size: 20px;
+  background: transparent;
+  border: solid 1px #4a464a;
+  opacity: 0.5;
+  padding: 5px 10px;  
+}
+
+input[type=text]:focus {
+    opacity: 1;
+    box-shadow: 0 0 4px #4a464a;
+}
+
+#inputbox button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5em; 
+    color: #f1f6fc;
+    background-color: #6b9f01;
+}
+
+.removeButton {
+    background: transparent;
+    border: none; 
+    color: #4a464a;
+    font-size: 20px; 
+}
