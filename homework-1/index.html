@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My tasks</title>
+</head>
+<body>
+    <div id="containerfortasklist">
+        <h1>My To Do List</h1>  
+        <ul id="taskList">
+            <li class="checkbox-group"><input type="checkbox" id="check1" name="check1">
+                <label for="check1">Drink 1.5 liters of water</label>
+               <!--<button type="button" class="removeButton" onclick="clearItem()">x</button></li>-->
+            <li class="checkbox-group"><input type="checkbox" id="check2" name="check2">
+                <label for="check2">Walking daily</label></li>
+            <li class="checkbox-group"><input type="checkbox" id="check3" name="check3">
+                <label for="check3">Grocery shopping</label></li>
+            <li class="checkbox-group"><input type="checkbox" id="check4" name="check4">
+                <label for="check4">Water the flowerpots</label></li>
+            <li class="checkbox-group"><input type="checkbox" id="check5" name="check5">
+                <label for="check5">Learning English one hour</label></li>
+            <li class="checkbox-group"><input type="checkbox" id="check6" name="check6">
+                <label for="check6">Learning html/css two hours</label></li>
+            <li class="checkbox-group"><input type="checkbox" id="check7" name="check7">
+                <label for="check7">Learning js two hours</label></li>
+        </ul>
+        <div id="inputbox">
+            <input type="text" placeholder="Enter new task" id="inputForNewTask" maxlength="50">
+            <button type="button" onclick="addNewTask()">+</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
